@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Grocery Store</title>
+    <title>grocery store for cyber place</title>
 
 <!-- Code for font awesome cdn -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,29 +18,77 @@
 
 <!-- header section-->
 <header class ="header">
-    <a href="#" class="logo" style="text-decoration: none;"><i class="fa fa-shopping-basket"></i> Grocery</a>
-<nav class="navbar">
-    <a href="#home" style="text-decoration: none;">Home</a>
-    <a href="#features" style="text-decoration: none;">Features</a>
-    <a href="#products" style="text-decoration: none;">Products</a>
-    <a href="#categories" style="text-decoration: none;">Categories</a>
-    <a href="#review" style="text-decoration: none;">Review</a>
-    <a href="#blogs" style="text-decoration: none;">Blogs</a>
-</nav>
+    <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> grocery</a>
 
+<nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#features">features</a>
+    <a href="#products">products</a>
+    <a href="#categories">categories</a>
+    <a href="#review">review</a>
+    <a href="#blogs">blogs</a>
+</nav>
 <div class="icons">
     <div class="fa fa-bars" id="menu-btn"></div>
     <div class="fa fa-search" id="search-btn"></div>
-    <div class="fa fa-shopping-cart" id="shopping-btn"></div>
+    <div class="fa fa-shopping-cart" id="cart-btn"></div>
     <div class="fa fa-user" id="login-btn"></div>
 </div>
+
+<form class="search-form">
+    <input type="search" id="search-box" placeholder="search here ....">
+    <label for="search-box" class="fa fa-search"></label>
+</form>
+
+<div class="shopping-cart">
+<div class="box">
+    <i class="fa fa-trash"></i>
+   <img src="image/cart-img-1.png" alt="">
+   <div class="content">
+    <h3>Watermelon</h3>
+    <span class="price">$5.99/-</span>
+    <span class="quantity">Qty : 1</span>
+   </div>
+</div>
+<div class="box">
+    <i class="fa fa-trash"></i>
+   <img src="image/cart-img-2.png" alt="">
+   <div class="content">
+    <h3>Onion</h3>
+    <span class="price">$4.99/-</span>
+    <span class="quantity">Qty : 2</span>
+   </div>
+</div>
+<div class="box">
+    <i class="fa fa-trash"></i>
+   <img src="image/cart-img-3.png" alt="">
+   <div class="content">
+    <h3>Chicken</h3>
+    <span class="price">$7.99/-</span>
+    <span class="quantity">Qty : 1</span>
+   </div>
+</div>
+<div class="total">total : $19.99/-</div>
+<a href="#" class="btn">Checkout</a>
+</div>
+
+<form action="#" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+
+    <p>forgot your password <a href="#">click here</a></p>
+    <p>Don't have an account <a href="#">create now</a></p>
+    <input type="submit" value="login now" class="btn">
+</form>
+
 </header>
 <!-- header section-->
 
 
 
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
