@@ -29,6 +29,13 @@ body{
   background-color: #eee;
   
 }
+
+/* css code for banner */
+section{
+padding: 2rem 9%;
+}
+/* css code for banner */
+
 .btn{
   border: .2rem solid var(--black);
   margin-top: 1rem;
@@ -247,9 +254,34 @@ padding-bottom: 1rem;
   right: 2rem;
   transition: .4s linear;
 }
-
-
-
+.home{
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  background: url(./image/banner-img.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+}
+.home .content{
+  /* border: 1px solid; */
+  text-align: center;
+  width: 60rem;
+}
+.home .content h3{
+  color: var(--black);
+  font-size: 3rem;
+}
+.home .content h3 span{
+  color: var(--green); 
+}
+.home .content p{
+  color: var(--light-colour);
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
 /* media queries--> */
 @media (max-width:991px){
   html{
@@ -258,10 +290,16 @@ padding-bottom: 1rem;
   .header{
     padding: 2rem;
   }
+  section{
+    padding: 2rem;
+  }
 }
 @media (max-width:768px){
   #menu-btn{
     display: inline-block;
+  }
+  .header .search-form{
+    width: 90%;
   }
   .header .navbar{
     position: absolute;
