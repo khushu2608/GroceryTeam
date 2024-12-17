@@ -31,10 +31,32 @@ body{
 }
 
 /* css code for banner */
-section{
+section
+{
+
 padding: 2rem 9%;
+
 }
-/* css code for banner */
+
+.heading
+{
+  text-align: centre;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+  font-size: 3.5rem;
+  color: var(--black);
+}
+
+.heading span
+{
+  background: var(--green);
+  color: #fff;
+  display: inline-block;
+  padding: .5rem;
+  clip-path: polygon(100% 0, 93% 50%,100% 99%,0% 100%, 7% 50%,0% 0%);
+}
+
+
 
 .btn{
   border: .2rem solid var(--black);
@@ -282,6 +304,22 @@ padding-bottom: 1rem;
   padding: 1rem 0;
   line-height: 1.8;
 }
+
+
+
+/*features*/
+.features .box-container
+{
+
+  border: 2px solid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+/*features*/
+
+
+
+
 /* media queries--> */
 @media (max-width:991px){
   html{
@@ -319,5 +357,9 @@ padding-bottom: 1rem;
 @media (max-width:450px){
   html{
     font-size: 50%;  
+  }
+  .heading
+  {
+    font-size:2.5rem;
   }
 }
