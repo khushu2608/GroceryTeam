@@ -11,6 +11,9 @@
 <!-- Code for linking css file -->
 <link rel="stylesheet" type="text/css" href="style.css">
 <!-- Code for linking css file -->
+
+
+<link rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -18,7 +21,7 @@
 
 <!-- header section-->
 <header class ="header">
-    <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> grocery</a>
+    <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> KriSHAK SarTHI</a>
 
 <nav class="navbar">
     <a href="#home">home</a>
@@ -136,10 +139,10 @@
   <section class="products" id="products">
     <h1 class="heading"> our <span>products</span></h1>
 
-    <div class="product-slider">
+    <div class="swiper product-slider">
 
-        <div class="wrapper">
-            <div class="box">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
                 <img src="image/product-1.png">
                <h1>fresh orange</h1>
                <div class="price"> $12.99/- -15.99/-</div>
@@ -155,10 +158,10 @@
             </div>
 
 
-            <div class="box">
+            <div class="swiper-slide box">
                 <img src="image/product-2.png">
                <h1>fresh orange</h1>
-               <div class="price"> $12.99/- -15.99/-</div>
+               <div class="price"> $16.99/- -17.99/-</div>
                <div class="stars">
                  
                 <i class="fa fa-star"></i>
@@ -170,10 +173,10 @@
                <a href="" class="btn">add to cart</a>
             </div>
 
-            <div class="box">
+            <div class="swiper-slide box">
                 <img src="image/product-3.png">
                <h1>fresh orange</h1>
-               <div class="price"> $12.99/- -15.99/-</div>
+               <div class="price"> $20.99/- -27.99/-</div>
                <div class="stars">
                  
                 <i class="fa fa-star"></i>
@@ -185,10 +188,75 @@
                <a href="" class="btn">add to cart</a>
             </div>
 
-            <div class="box">
+            <div class="swiper-slide box">
                 <img src="image/product-4.png">
                <h1>fresh orange</h1>
-               <div class="price"> $12.99/- -15.99/-</div>
+               <div class="price"> $30.99/- -44.99/-</div>
+               <div class="stars">
+                 
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+               </div>
+               <a href="" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image/product-5.png">
+               <h1>fresh orange</h1>
+               <div class="price"> $45.99/- -46.99/-</div>
+               <div class="stars">
+                 
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+               </div>
+               <a href="" class="btn">add to cart</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image/product-6.png">
+               <h1>fresh orange</h1>
+               <div class="price"> $44.99/- -45.99/-</div>
+               <div class="stars">
+                 
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+               </div>
+               <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-7.png">
+               <h1>fresh orange</h1>
+               <div class="price"> $50.99/- -51.99/-</div>
+               <div class="stars">
+                 
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+               </div>
+               <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-8.png">
+               <h1>fresh orange</h1>
+               <div class="price"> $24.99/- -33.99/-</div>
                <div class="stars">
                  
                 <i class="fa fa-star"></i>
@@ -202,8 +270,49 @@
         </div>
     </div>
     
+    
     </section>
    <!-- our products  section -->
+
+   <!-- our Categories  section -->
+   <section class="categories" id="categories">
+        <h1 class="heading"> product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/cat-1.png">
+                <h3>Vegetables</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-2.png">
+                <h3>Fresh Fruits</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-3.png">
+                <h3>Dairy Products</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-4.png">
+                <h3>Fresh Meat</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+   </section>
+
+
+
+    <!-- our Categories  section -->
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
 
 </body>
